@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { render } from 'react-dom';
 import { observer } from 'mobx-react';
+import ReactAccelerometer from 'react-accelerometer';
 
 import './Root.scss';
 import { Header } from '../../components/Header/Header';
